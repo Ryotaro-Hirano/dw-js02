@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>複数の処理をまとめよう：同じ処理は２度書かない！</title>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/script.js">
+</script>
+</head>
+
+<body>
+<div id="changeArea">
+ここにマウスオーバー時のテキスト表示用のdivタグを追加する。<br />
+id名も追加する。
+<!-- addText --></div>
+
+<ul>
+<li id="li_1" onmouseover="changeText('li_1');">デジタルハリウッド</li>
+<li id="li_2" onmouseover="changeText('li_2');">渋谷校</li>
+<li id="li_3" onmouseover="changeText('li_3');">新宿校</li>
+<li id="li_4" onmouseover="changeText('li_4');">東京本校</li>
+<li id="li_5" onmouseover="changeText('li_5');">米子校</li>
+</ul>
+</body>
+</html>
